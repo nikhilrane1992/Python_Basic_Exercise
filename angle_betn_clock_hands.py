@@ -23,4 +23,7 @@ def clockangles(hour, minute):
     return min(360 - ans, ans)
 
 
-print clockangles(12, 30)
+hour, minute = input("Enter hour and minute comma seperated: ")
+hour, minute = int(hour), int(minute)
+print "Angle Between {} hour and {} minute is {}".format(
+    hour, minute, int(clockangles(hour, minute)))
