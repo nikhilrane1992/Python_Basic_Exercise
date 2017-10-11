@@ -21,6 +21,7 @@ Try your luck ** ^_^ **"""
 b_part = ["Hair", "Eyes", "Arm", "Shoulder", "Stomach", "Leg"]
 s = "Anaconda"
 g_list, w_guess = list(), list()
+LINE_CHAR = 30
 
 
 def show_string(inv, s_list):
@@ -32,13 +33,13 @@ def show_string(inv, s_list):
 
 def print_output(ot):
     if ot == 'l':
-        print "************************"
-        print "You Loose"
-        print "************************"
+        print "*" * LINE_CHAR
+        print "You Loose (^=^)"
+        print "*" * LINE_CHAR
     elif ot == 'w':
-        print "************************"
-        print "You Win"
-        print "************************"
+        print "*" * LINE_CHAR
+        print "You Win (*_*)"
+        print "*" * LINE_CHAR
 
 
 def main():
@@ -56,6 +57,7 @@ def main():
             f_str = show_string(inv, s_list)
             if f_str == s.lower():
                 print "Guess string: " + f_str
+                print "-" * LINE_CHAR
                 print_output('w')
                 break
             else:
@@ -63,6 +65,8 @@ def main():
         else:
             w_guess.append(inv)
             print "Body part removed: ", b_part.pop()
+
+        print "-" * LINE_CHAR
 
 
 # Run main function
