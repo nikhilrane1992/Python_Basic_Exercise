@@ -1,7 +1,22 @@
 # Hangman game implemenation
-# if 6 guess wrong you loose
-# if you guess currect then you win
-# Try your luck ** ^_^ **
+"""
+Guess a word.
+The word to guess is represented by a row of dashes, representing
+each letter of the word.
+
+Write a programm to guess a word by the user.
+
+for example
+word = "anaconda"
+body_part = ["Hair", "Eyes", "Arm", "Shoulder", "Stomach", "Leg"]
+
+- Take a input from user in lower alphabet
+- Check the alphabet with your word if match then show the match string
+  and remaining dash. if guess alphabet is a then show string  a_a____a
+- If you give 6 wrong input then you loose
+- On each wrong guess remove one body part from body part list
+- If you guess right word then you win
+Try your luck ** ^_^ **"""
 
 b_part = ["Hair", "Eyes", "Arm", "Shoulder", "Stomach", "Leg"]
 s = "Anaconda"
