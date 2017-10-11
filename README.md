@@ -1,2 +1,13 @@
-# Python_Basic_Exercise
-Basic exercise for beginners
+# Python Basic Exercise
+Basic interview exercise for beginners
+
+- Angle between clock hands
+- Calculate area of Triangle
+- Check leap year
+- Conversion (km to mile, degree celsius to fahrenheit)
+- Fibonacci sequence (simple, recursion)
+- Find prime number or not
+- Find root of the number
+- Find the factorial of a number
+- Hangman game
+- Swap two variables
