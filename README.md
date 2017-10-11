@@ -11,3 +11,5 @@ Basic interview exercise for beginners
 - Find the factorial of a number
 - Hangman game
 - Swap two variables
+- Bubble Sort
+- Rule engine
