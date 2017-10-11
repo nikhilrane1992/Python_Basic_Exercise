@@ -2,18 +2,21 @@
 
 n = int(input("Enter number: "))
 
-num1, num2, count, x = 1, 1, 1, 0
+num1, num2, count = 1, 1, 1
 
 while count <= n:
     print num1
-    x = num1 + num2
-    num1 = num2
-    num2 = x
+    num1, num2 = num2, num1 + num2
     count += 1
 
+    
+# Using for loop
+for i in range(n):
+    print num1
+    num1, num2 = num2, num1 + num2
 
+  
 # Fibonacci series by recursion method
-
 def fab(x):
     if x <= 1:
         return x
