@@ -8,7 +8,7 @@ s = "Anaconda"
 g_list, w_guess = list(), list()
 
 
-def show_tring(inv, s_list):
+def show_string(inv, s_list):
     for i in range(len(s_list)):
         if inv != s_list[i] and s_list[i] not in g_list:
             s_list[i] = '-'
@@ -38,7 +38,7 @@ def main():
             break
         if inv in s_list:
             g_list.append(inv.strip())
-            f_str = show_tring(inv, s_list)
+            f_str = show_string(inv, s_list)
             if f_str == s.lower():
                 print "Guess string: " + f_str
                 print_output('w')
