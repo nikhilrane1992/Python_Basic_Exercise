@@ -13,3 +13,5 @@ Basic interview exercise for beginners
 - Swap two variables
 - Bubble Sort
 - Rule engine
+- Poker full house
+- Find given word in string or array
