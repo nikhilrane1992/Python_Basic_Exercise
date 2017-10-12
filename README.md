@@ -15,3 +15,4 @@ Basic interview exercise for beginners
 - Rule engine
 - Poker full house
 - Find given word in string or array
+- Second largest number from list
