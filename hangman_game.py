@@ -1,4 +1,4 @@
-# Hangman game implemenation
+# Hangman game implementation
 """
 Guess a word.
 The word to guess is represented by a row of dashes, representing
