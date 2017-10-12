@@ -16,3 +16,4 @@ Basic interview exercise for beginners
 - Poker full house
 - Find given word in string or array
 - Second largest number from list
+- Armstrong number or not
